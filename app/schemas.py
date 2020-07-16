@@ -13,6 +13,13 @@ class TodoCreate(TodoBase):
     pass
 
 
+class TodoUpdate(TodoBase):
+    owner_id: int = None
+
+    class Config:
+        orm_mode = True
+
+
 class Todo(TodoBase):
     id: int
     owner_id: int = None
