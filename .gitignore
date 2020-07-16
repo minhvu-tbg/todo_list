@@ -1,0 +1,42 @@
+.pytest_cache/
+.venv/
+.vscode/
+__pycache__/
+*.egg-info/
+.tox/
+.env
+.coverage
+
+# PyCharm
+#  Project settings from the PyCharm IDE are stored in the .idea folder
+.idea/
+
+#VSCode
+.vscode/
+
+# Apple OS X specific files are put into the .DS_Store file
+.DS_Store
+
+# Vim stuff:
+*.swp
+*.swo
+*~
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# config
+*.env
+
+# pyenv
+.python-version
+
+sql_app.db
